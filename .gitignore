@@ -1,0 +1,18 @@
+./venv
+./dist
+./pycache
+./bot-python
+./pycache
+# Ignorar directorios __pycache__
+__pycache__/
+# Python virtual environment
+venv/
+# Ignorar archivos de bytecode de Python
+*.py[cod]
+#Ignorar archivos dentro de las subcarpetas de REPORTES
+REPORTES/**/*.docx
+backup-plantillas/*.docx
+#Ignorar archivos dentro de las subcarpetas de CSV
+CSV/**/*.csv
+
+
